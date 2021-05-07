@@ -1,2 +1,2 @@
 # ray6464.github.io
-A Blog by Ray Voice @rayshorthead
+A Website by Ray Voice @rayshorthead

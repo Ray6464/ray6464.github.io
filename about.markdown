@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<h1>Ray Voice</h1>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<img src="{{site.baseurl}}/assets/Ray Voice.jpg" alt="A picture of Ray Voice" style="width:18vw;display:inline-block;float:left;margin-right:2rem">
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+ Ray Voice is a Software Engineer, Businessman, Author, Mathematician, Singer-Songwriter, Comedian, and Political Activist. He is the Managing Director and CEO of *Ray & A Group Solutions*, Director of the research facility *TARDIS*, and Author of severl STEM education books like including the following:
 
+<ul style="padding-left:20vw;">
+  <li>Simply Web Development</li>
+  <li>Simply ES6</li>
+  <li>Simply Vim</li>
+  <li>etc.</li>
+</ul>
 
-[jekyll-organization]: https://github.com/jekyll
+For business consultations, technical editing, public speaking requests, startup pitches, or any other business related stuff send me an email at rayvanet@gmail.com
