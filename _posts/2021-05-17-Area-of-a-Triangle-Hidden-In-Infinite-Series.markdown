@@ -11,7 +11,7 @@ The formula for the Area of a Triange is extracted from the formula for the Area
 
 Polygon-Area =  $$ \frac{1}{2} \sum_{i=0}^{n-1} (x_i y_{i+1} - x_{i+1} y_i) $$
 
-> n = 3 becaude Triangle is a Polygon with 3 Verticies.
+> n = 3 because a Triangle is a polygon with 3 verticies.
 
 $$ n=3 \longrightarrow \frac{1}{2} [(x_0 y_{1} - x_{1} y_0) + (x_1 y_2 - x_2 y_1) + (x_2 y_0 - x_0 y_2)] $$
 
