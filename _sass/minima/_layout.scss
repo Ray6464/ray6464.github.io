@@ -1,13 +1,33 @@
 /**
  * Site header
  */
+@keyframes neon-header {
+  0% {border-bottom: 1px solid lighten($techno-violet-dark, 10%); box-shadow:1px 1px 10px lighten($techno-violet-dark, 10%);}
+  60% {border-bottom: 1px dotted lighten($techno-violet-light, 5%);box-shadow:1px 1px 25px $techno-violet-light, 1px 1px 5px hotpink;}
+  70% {border-bottom: 1px dotted lighten($techno-violet-light, 5%);box-shadow:1px 1px 25px lighten($techno-violet-light, 10%), 2px 2px 10px $techno-blue-light;}
+  100% {border-bottom: 1px solid lighten($techno-violet-dark, 10%); box-shadow:1px 1px 10px lighten($techno-violet-dark, 10%);}
+}
+
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 5px solid darken($techno-violet-dark, 15%);//$grey-color-dark;
+  border-bottom: 1px solid lighten($techno-violet-light, 10%); //$grey-color-light;
   min-height: $spacing-unit * 1.865;
+  background-color: darken($techno-blue-dark, 10%);
+  box-shadow: 1px 1px 10px lighten($techno-violet-light, 10%);
+
+  animation-name: neon-header;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+}
+
+@keyframes neon {
+  0% {color: $techno-blue-dark; text-shadow: 1px 1px 1px $techno-blue-light, 2px 2px 2px $techno-shiny-tone, -2px -2px 2px $techno-shiny-tone;}
+  60% {color: $techno-blue-light; text-shadow: 5px 5px 5px $techno-blue-dark, 2px 2px 2px $techno-shiny-tone, -2px -2px 2px $techno-shiny-tone;}
+  100% {color: $techno-blue-dark; text-shadow: 1px 1px 1px $techno-blue-light, 2px 2px 2px $techno-shiny-tone, -2px -2px 2px $techno-shiny-tone;}
 }
 
 .site-title {
@@ -22,11 +42,18 @@
   float: left;
 
   // Added a font family
-  font-family: "Chomsky";
+  font-family: "Orbitron",sans-serif; //"Chomsky";
+  
+  color: $techno-blue-light; //$grey-color-light;
+  animation-name: neon;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  text-decoration: none;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    text-decoration-skip: ink;
   }
 }
 
@@ -43,7 +70,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $secondary-text-color;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -111,14 +138,29 @@
 /**
  * Site footer
  */
+
+@keyframes neon-footer {
+  0% {box-shadow: 0px 100px 0px $techno-violet-dark;}
+  60% {box-shadow: 0px 100px 150px $techno-violet-light;}
+  100% {box-shadow: 0px 100px 0px $techno-violet-dark;}
+}
+
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+//  border-top: 1px solid $grey-color-light;
+  box-shadow: 0px 100px 250px $techno-violet-dark;
   padding: $spacing-unit 0;
+  background-image: linear-gradient(to right, darken($techno-violet-dark, 10%) , darken($techno-blue-dark, 10%));   //darken($techno-blue-dark, 13%);
+
+  animation-name: neon-footer;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  color: $secondary-text-color;
 }
 
 .contact-list,

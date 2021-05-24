@@ -1,4 +1,28 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+// Define techno colors for a cyberpunk theme
+$techno-font: "Obitron", sans-serif;
+
+/*
+// jacks favourite color-theme - looks like a gentelmen's club website
+$techno-blue-dark: black !default;
+$techno-blue-light: orange !default;
+$techno-violet-light: blue !default;
+$techno-blue-mid: green !default;
+$techno-violet-dark: purple !default;
+*/
+
+$techno-shiny-tone: #ff2a6d !default;
+$techno-violet-dark: #63345e !default;
+$techno-violet-light: #ac61a9 !default;
+$techno-blue-light: #b7c1de !default;
+$techno-blue-mid: #0b468c !default;
+$techno-blue-dark: #092047 !default;
+
+$secondary-text-color: #eee !default;
+
+
 
 // Define defaults for each variable.
 
@@ -11,8 +35,13 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 // added dark theme
-$text-color:       #eee !default;
-$background-color: #121213 !default;
+$text-color: #121213 !default; //#eee !default;
+$background-color: #eee !default; //darken($techno-blue-dark, 13%) !default; //#121213 !default;
+
+// will add light theme soon
+$text-color-light-theme: #333 !default;
+$background-color-light-theme: white !default; //#121213 !default;
+
 
 $brand-color:      #2a7ae2 !default;
 
@@ -27,6 +56,7 @@ $content-width:    800px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
+
 
 // Use media queries like this:
 // @include media-query($on-palm) {
