@@ -55,7 +55,7 @@ $$ \longrightarrow [-ab] $$
 
 $$ \text{Positive Area} \longrightarrow  ab $$
 
-> We have already established that $a$ is the fartherest we go in the direction of *x-axis* so it is our Rectangle's width, and $b$ is the fartherest we go in the direction of *y-axis* so it is our Rectangle's height.
+> We have already established that $$a$$ is the fartherest we go in the direction of *x-axis* so it is our Rectangle's width, and $$b$$ is the fartherest we go in the direction of *y-axis* so it is our Rectangle's height.
 
 $$ \text{Polygon-Area} = ab $$
 
