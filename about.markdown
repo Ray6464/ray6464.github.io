@@ -8,7 +8,7 @@ permalink: /about/
 
 <img src="{{site.baseurl}}/assets/Ray Voice.jpg" alt="A picture of Ray Voice" style="width:18vw;display:inline-block;float:left;margin-right:2rem">
 
- Ray Voice is a Software Engineer, Businessman, Author, Mathematician, Educator, Researcher, and Political Activist. He is the Managing Director and CEO of *Ray & A Group Solutions*, Director of the research facility *TARDIS*, and Author of many STEM education books including:
+ Ray Voice is a Software Engineer, Businessman, Author, Mathematician, Educator, AI and Synthetic Biology Researcher, and Political Activist. He is the Managing Director and CEO of *Ray & A Group Solutions*, Director of the research facility *TARDIS*, and Author of many STEM and Business education books including:
 
 <ul style="padding-left:20vw;">
   <li>Simply Web Development</li>
