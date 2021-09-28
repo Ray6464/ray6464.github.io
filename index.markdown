@@ -25,6 +25,24 @@ Ray-Net is a "FOSS" lateral humanity wide network (under development, and looing
 14. There are not websites, clouds, email clients, etc. Only other people's computers.
 15. The initial purpose of developement of Ray-Net is to provide a computer network for free education, finincial technology, and social networking.
 
+## The Chat Application
+A Chat Application for Ray-Net is under development. It utilizes the `PGP` and `Web-of-Trust` protocols, and the additional `dead-drop protocol`, and the `ambassador protocol` to keep the messages safe, and the users anonymous. All communication is end-to-end encrypted!
+
+### PGP
+The PGP protocol uses AES (or ChaCha20 which is better for light-weight devices) of Symmetric Encryption, and instead of Generating Random Keys you decide on a key everytime you encrypt a message.
+
+> Since computers can't generate true random numbers its up to you to do this yourself using dice or just guessing! Generating psudo-random numbers with a computer will make your encryption valunerable.
+
+### Dead-Drop Protocol
+In the Dead-Drop Protocol the priority is givin to getting the message to from Party-A to Party-B, without them ever comming in `face-2-face` contact.
+
+> Note: `face-2-fact` contact here means having the knowledge of real world credentials as a requirement of meeting.
+
+### Ambassador Protocol
+In the Ambassador protocol we carry the message from one tower to the next, changing the name of the owner of the message. Going over several Towers allows circumventing several limitations and gives a certain degree of anonymity. This somewhat overcomes the indirect trust problem in a web-of-trust.
+
+
+
 To officially support the development of Ray-Net contact the developers at rayvanet@gmail.com.
 To support the developers buy the Books Published by Author Ray Voice.
 Follow the developers on Twitter @rayshorthead and @annashorthead.
