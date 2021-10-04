@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Deriving the Additive Identity from the Pythagorean Theorem"
+title:  "Deriving the Multiplicative Identity from the Pythagorean Theorem"
 date:   2021-09-27 09:49:00 +0500
-categories: math proof pythagoream polarform
+categories: math proof pythagorean polarform
 ---
 
 $$\require{cancel}$$
@@ -17,7 +17,7 @@ $$ a^2 + b^2 = c^2 \longleftrightarrow sin^2 \theta + cos^2 \theta $$
 
 ### Components
 
-The equation $$ sin^2 \theta + cos^2 \theta = 1 $$ has three individual components we need to bring out from $$ a^2 + b^2 = c^2 $$. The first component is the Additive Identity $$ 1 $$ which will be easy to bring out in most cases (including this one). The second and third components are the "squares".
+The equation $$ sin^2 \theta + cos^2 \theta = 1 $$ has three individual components we need to bring out from $$ a^2 + b^2 = c^2 $$. The first component is the Multiplicative Identity $$ 1 $$ which will be easy to bring out in most cases (including this one). The second and third components are the "squares".
 
 ### Reasoning
 
@@ -45,7 +45,7 @@ $$ \text{Q.E.D} $$
 
 > All steps are reversable, hence the proof works backwards too!
 
-Similarly we can also begin by taking the left side for the additive identity:-
+Similarly we can also begin by taking the left side for the multiplicative identity:-
 
 $$ \longrightarrow \frac{a^2 + b^2}{a^2 + b^2} = \frac{c^2}{a^2 + b^2 } $$
 
